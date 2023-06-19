@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    background-image: url(pag_01_fundo.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.container {
+    color: white;
+    text-align:center;
+    font-family: 'Bebas Neve', cursive;
+    margin: 50px;
+
+}
+h1 {
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+h2 {
+    font-size: 35px;
+    padding: 10px;
+}
+img {
+    width: 300px;
+}
+img:hover {
+    width: 280px;
+}
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+p{
+    color: white;
+}
+
+.footer {
+    font-family: "Bebas Neue"
+    cursive;
+    font-size: 20px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    max-width: 96rem;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.footer img {
+    width: 50px;
+    padding: 3px;
+}
+.footer-social {
+display: flex;
+gap: 2rem;
+}
